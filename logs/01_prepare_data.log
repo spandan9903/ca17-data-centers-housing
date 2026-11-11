@@ -1,0 +1,113 @@
+District features: 1 GEOID: ['0617'] CRS: EPSG:4269
+Tract features: 202 unique GEOID: 202 CRS: EPSG:4269
+Invalid geometries — district: 0  tracts: 0
+
+Overlap classes:
+ overlap_class
+1_within (>=90%)       141
+2_majority (50-90%)     13
+3_minority (5-50%)      15
+4_sliver (<5%)          33
+Tracts by county x class:
+ overlap_class  1_within (>=90%)  2_majority (50-90%)  3_minority (5-50%)  4_sliver (<5%)
+COUNTYFP                                                                                
+001                          16                    2                   4              10
+081                           0                    0                   0               1
+085                         125                   11                  11              22
+Sum of overlap area (km2): 490.73  district area (km2): 490.73
+B19013: 88605 rows nationally (all summary levels) -> 9129 CA tracts
+B25064: 88605 rows nationally (all summary levels) -> 9129 CA tracts
+B25070: 88605 rows nationally (all summary levels) -> 9129 CA tracts
+
+CES 5.0: 9106 tracts, CRS EPSG:3310
+CES fields with -999 (no data) codes: {'CIscore': 73, 'CIscoreP': 73, 'diesel': 9, 'dieselP': 9, 'traffic': 9, 'trafficP': 9, 'drink': 9, 'drinkP': 9, 'lead': 84, 'leadP': 84, 'asthma': 33, 'asthmaP': 33, 'lbw': 234, 'lbwP': 234, 'cvd': 26, 'cvdP': 26, 'diabetes': 36, 'diabetesP': 36, 'edu': 28, 'eduP': 28, 'ling': 58, 'lingP': 58, 'pov': 50, 'povP': 50, 'unemp': 45, 'unempP': 45, 'housingB': 64, 'housingBP': 64, 'PopChar': 73, 'PopCharSco': 73, 'PopCharP': 73, 'pop_und10': 25, 'pop_10_64': 25, 'pop_ov64': 25, 'hisp': 25, 'white': 25, 'black': 25, 'amind': 25, 'asian': 25, 'pacisl': 25, 'othmult': 25}
+
+Energy affordability CSV: 27022 rows, 9040 tracts, tenant types {'COM': 9040, 'REN': 9029, 'OWN': 8953}
+JOIN tracts->ACS B19013/B25064/B25070: 202/202 matched; unmatched: []
+JOIN tracts->CES5.0: 200/202 matched; unmatched: ['06001990000', '06081990100']
+JOIN tracts->CEC energy affordability: 199/202 matched; unmatched: ['06001444303', '06001990000', '06081990100']
+
+Missing values:
+                all_202  district_set
+mhi                   3             1
+mgr                   4             2
+pct_burden30          3             1
+pct_burden50          3             1
+ces_CIscoreP          3             1
+ces_PollutionP        2             0
+ces_PopCharP          3             1
+ea_REN_EBurden        3             1
+ACS annotation flags (top-coded / suppressed):
+           GEOID        overlap_class       mhi          mhi_flag     mgr          mgr_flag  rent_hh_total
+4    06085507807     1_within (>=90%)  250000.0         top-coded  3500.0         top-coded            283
+5    06085504505     1_within (>=90%)  229572.0                    3500.0         top-coded           2575
+9    06085507401       4_sliver (<5%)  244046.0                    3500.0         top-coded            153
+11   06085507702  2_majority (50-90%)  250000.0         top-coded  3500.0         top-coded            336
+17   06085510002       4_sliver (<5%)  250000.0         top-coded  3500.0         top-coded            200
+18   06085510100       4_sliver (<5%)  250000.0         top-coded  3500.0         top-coded            128
+23   06085504423     1_within (>=90%)  181250.0                    3500.0         top-coded            154
+24   06085511707       4_sliver (<5%)  203068.0                    3500.0         top-coded            212
+30   06085507906  2_majority (50-90%)  250000.0         top-coded  3500.0         top-coded            337
+33   06085508101     1_within (>=90%)  250000.0         top-coded  3500.0         top-coded            957
+34   06001450701       4_sliver (<5%)  250000.0         top-coded  3500.0         top-coded            387
+35   06001442200       4_sliver (<5%)  250000.0         top-coded  3500.0         top-coded            547
+36   06001441601       4_sliver (<5%)  164167.0                    3500.0         top-coded            318
+48   06001441524   3_minority (5-50%)  250000.0         top-coded  3258.0                              464
+53   06085504806     1_within (>=90%)  158750.0                    3500.0         top-coded            275
+56   06085508204     1_within (>=90%)  250000.0         top-coded  3500.0         top-coded            711
+58   06085507904  2_majority (50-90%)  250000.0         top-coded  3500.0         top-coded            146
+61   06085504414     1_within (>=90%)  165761.0                    3500.0         top-coded            573
+62   06085504415     1_within (>=90%)  213654.0                    3500.0         top-coded            234
+64   06085508301     1_within (>=90%)  250000.0         top-coded  3033.0                              312
+65   06085508303     1_within (>=90%)  219081.0                    3500.0         top-coded             92
+68   06085506102     1_within (>=90%)  189439.0                    3500.0         top-coded            831
+69   06085507808     1_within (>=90%)  250000.0         top-coded  3500.0         top-coded            561
+70   06085507903  2_majority (50-90%)  223571.0                    3500.0         top-coded            334
+72   06085508404     1_within (>=90%)  213393.0                    3500.0         top-coded           1013
+73   06001441503  2_majority (50-90%)  250000.0         top-coded  3500.0         top-coded            485
+75   06001443001       4_sliver (<5%)  158095.0                    3500.0         top-coded            114
+77   06001443102     1_within (>=90%)  249375.0                    3500.0         top-coded            225
+78   06001443301     1_within (>=90%)  250000.0         top-coded  3500.0         top-coded            122
+81   06081990100       4_sliver (<5%)       NaN  suppressed/NA(-)     NaN  suppressed/NA(-)              0
+82   06085508004     1_within (>=90%)  250000.0         top-coded  3396.0                             1080
+90   06085509110   3_minority (5-50%)  192045.0                    3500.0         top-coded           1185
+91   06085508006     1_within (>=90%)  240833.0                    3500.0         top-coded            268
+96   06085508005     1_within (>=90%)  206389.0                    3500.0         top-coded            795
+103  06001990000   3_minority (5-50%)       NaN  suppressed/NA(-)     NaN  suppressed/NA(-)              0
+104  06085504700   3_minority (5-50%)  194917.0                    3500.0         top-coded            223
+108  06085504421     1_within (>=90%)  172500.0                    3500.0         top-coded            300
+109  06001444303     1_within (>=90%)       NaN  suppressed/NA(-)     NaN  suppressed/NA(-)              0
+112  06085508203     1_within (>=90%)  250000.0         top-coded  3500.0         top-coded            668
+119  06085508003     1_within (>=90%)  198500.0                    3500.0         top-coded            271
+120  06085508403     1_within (>=90%)  250000.0         top-coded  3500.0         top-coded            153
+123  06085504315     1_within (>=90%)  182784.0                    3500.0         top-coded            360
+127  06085505302     1_within (>=90%)  213365.0                    3500.0         top-coded            601
+128  06085505304     1_within (>=90%)  226731.0                    3500.0         top-coded            171
+132  06085508601     1_within (>=90%)  195804.0                    3500.0         top-coded            634
+139  06085510001       4_sliver (<5%)  250000.0         top-coded  3492.0                              177
+142  06001443105     1_within (>=90%)  248185.0                    3500.0         top-coded            197
+145  06085507701     1_within (>=90%)  234886.0                    3500.0         top-coded            221
+149  06001443200     1_within (>=90%)  250000.0         top-coded     NaN  suppressed/NA(-)             21
+150  06085509109       4_sliver (<5%)  250000.0         top-coded  3500.0         top-coded           1513
+151  06001443103   3_minority (5-50%)  250000.0         top-coded  3500.0         top-coded             75
+154  06085507600       4_sliver (<5%)  250000.0         top-coded  3500.0         top-coded            317
+160  06085504317     1_within (>=90%)  180859.0                    3500.0         top-coded            260
+162  06085504320     1_within (>=90%)  183571.0                    3500.0         top-coded            202
+176  06085507705  2_majority (50-90%)  250000.0         top-coded  3500.0         top-coded            329
+177  06085507704     1_within (>=90%)  157014.0                    3500.0         top-coded            622
+181  06085508206     1_within (>=90%)  250000.0         top-coded  3500.0         top-coded            375
+186  06085508708     1_within (>=90%)  250000.0         top-coded  3500.0         top-coded           2245
+190  06085508306     1_within (>=90%)  250000.0         top-coded  3500.0         top-coded            428
+191  06085503803     1_within (>=90%)  190855.0                    3500.0         top-coded            387
+193  06001444601     1_within (>=90%)  224722.0                    3500.0         top-coded            310
+JOIN region tracts (CES geom)->ACS: 959/959 matched; unmatched: []
+Region tracts: 959 ({'Santa Clara': 408, 'Alameda': 378, 'San Mateo': 173})
+
+CA-17 area by county (CES-tract-derived county polygons):
+        county    area_km2     share
+1  Santa Clara  344.078171  0.711308
+0      Alameda  139.647768  0.288692
+District-set tract population by county (ACS 2024 via CES): {'001': 86240.0, '085': 667982.0}
+Regional tercile cut points — % rent-burdened (30%+): [41.1, 55.1]  CES percentile: [21.3, 46.0]
+
+Wrote ./data/processed/ca17_analysis.gpkg

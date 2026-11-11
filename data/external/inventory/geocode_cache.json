@@ -1,0 +1,166 @@
+{
+ "150 S 1st St, San Jose, CA": {
+  "lon": -121.888584023407,
+  "lat": 37.333619243585,
+  "matched": "150 S 1ST ST, SAN JOSE, CA, 95113",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "326 Charcot Ave, San Jose, CA": {
+  "lon": -121.915780681274,
+  "lat": 37.381800835839,
+  "matched": "326 CHARCOT AVE, SAN JOSE, CA, 95131",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "5601 Great Oaks Pkwy, San Jose, CA": null,
+ "865 Embedded Way, San Jose, CA": {
+  "lon": -121.793562343095,
+  "lat": 37.267321861526,
+  "matched": "865 EMBEDDED WAY, SAN JOSE, CA, 95138",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "5977 Silver Creek Valley Rd, San Jose, CA": {
+  "lon": -121.788002217774,
+  "lat": 37.257315686214,
+  "matched": "5977 SILVER CREEK VALLEY RD, SAN JOSE, CA, 95138",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "180 Park Ave, San Jose, CA": {
+  "lon": -121.891212623908,
+  "lat": 37.331264201206,
+  "matched": "180 PARK AVE, SAN JOSE, CA, 95110",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "323 Terraine St, San Jose, CA": {
+  "lon": -121.897442429039,
+  "lat": 37.339189090238,
+  "matched": "323 TERRAINE ST, SAN JOSE, CA, 95110",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "350 W Trimble Rd, San Jose, CA": {
+  "lon": -121.934938689018,
+  "lat": 37.382508909637,
+  "matched": "350 W TRIMBLE RD, SAN JOSE, CA, 95131",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "300 S 1st St, San Jose, CA": {
+  "lon": -121.88695615731,
+  "lat": 37.331420342329,
+  "matched": "300 S 1ST ST, SAN JOSE, CA, 95113",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "2549 Orchard Pkwy, San Jose, CA": null,
+ "300 Holger Way, San Jose, CA": {
+  "lon": -121.946507771573,
+  "lat": 37.418961558504,
+  "matched": "300 HOLGER WAY, SAN JOSE, CA, 95134",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "1849 Fortune Dr, San Jose, CA": {
+  "lon": -121.895579227137,
+  "lat": 37.400965742885,
+  "matched": "1849 FORTUNE DR, SAN JOSE, CA, 95131",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "127 Great Oaks Blvd, San Jose, CA": {
+  "lon": -121.780339947469,
+  "lat": 37.232629245792,
+  "matched": "127 GREAT OAKS BLVD, SAN JOSE, CA, 95119",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "1657 Alviso Milpitas Rd, San Jose, CA": null,
+ "5087 Disk Dr, San Jose, CA": {
+  "lon": -121.965452277416,
+  "lat": 37.429272588593,
+  "matched": "5087 DISK DR, SAN JOSE, CA, 95134",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "5853 Rue Ferrari, San Jose, CA": {
+  "lon": -121.77813752243,
+  "lat": 37.2479935417,
+  "matched": "5853 RUE FERRARI, SAN JOSE, CA, 95138",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "2805 Bowers Ave, Santa Clara, CA": null,
+ "2825 Lafayette St, Santa Clara, CA": null,
+ "651 Martin Ave, Santa Clara, CA": {
+  "lon": -121.949949208403,
+  "lat": 37.366193803099,
+  "matched": "651 MARTIN AVE, SANTA CLARA, CA, 95050",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "INTERSECTION:West Trimble Road&Orchard Parkway": {
+  "lon": -121.93161287500001,
+  "lat": 37.3842312,
+  "matched": "West Trimble Road & Orchard Parkway (OSM shared nodes: 4)",
+  "n_matches": 4,
+  "method": "OSM street intersection (approximate site location)"
+ },
+ "26203 Production Ave, Hayward, CA": {
+  "lon": -122.119521393713,
+  "lat": 37.628200371989,
+  "matched": "26203 PRODUCTION AVE, HAYWARD, CA, 94545",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "2232 Golf Club Rd, Pittsburg, CA": {
+  "lon": -121.910935612821,
+  "lat": 38.01351663399,
+  "matched": "2232 GOLF CLUB RD, PITTSBURG, CA, 94565",
+  "n_matches": 1,
+  "method": "Census Geocoder (address range interpolation)"
+ },
+ "5601 Great Oaks Parkway, San Jose, CA 95119": null,
+ "NOMINATIM:5601 Great Oaks Parkway, San Jose, CA 95119": {
+  "lon": -121.795226,
+  "lat": 37.25065,
+  "matched": "5601, Great Oaks Parkway, San Jose, Santa Clara County, California, 95119, United States",
+  "n_matches": 1,
+  "method": "OSM Nominatim (place/house)"
+ },
+ "2549 Orchard Parkway, San Jose, CA 95134": null,
+ "NOMINATIM:2549 Orchard Parkway, San Jose, CA 95134": {
+  "lon": -121.9314263,
+  "lat": 37.3815129,
+  "matched": "2549, Orchard Parkway, North San Jose, San Jose, Santa Clara County, California, 95131, United States",
+  "n_matches": 1,
+  "method": "OSM Nominatim (place/house)"
+ },
+ "1657 Alviso-Milpitas Road, San Jose, CA 95002": null,
+ "NOMINATIM:1657 Alviso-Milpitas Road, San Jose, CA 95002": {
+  "lon": -121.9294552,
+  "lat": 37.4227894,
+  "matched": "Alviso Milpitas Road, Alviso, San Jose, Santa Clara County, California, 95134, United States",
+  "n_matches": 1,
+  "method": "OSM Nominatim (highway/service)"
+ },
+ "2805 Bowers Avenue, Santa Clara, CA 95051": null,
+ "NOMINATIM:2805 Bowers Avenue, Santa Clara, CA 95051": {
+  "lon": -121.9765052,
+  "lat": 37.3723785,
+  "matched": "2805, Bowers Avenue, Santa Clara, Santa Clara County, California, 95051, United States",
+  "n_matches": 1,
+  "method": "OSM Nominatim (office/yes)"
+ },
+ "2825 Lafayette Street, Santa Clara, CA 95050": null,
+ "NOMINATIM:2825 Lafayette Street, Santa Clara, CA 95050": {
+  "lon": -121.9503936,
+  "lat": 37.3725153,
+  "matched": "2825, Lafayette Street, Santa Clara, Santa Clara County, California, 95050, United States",
+  "n_matches": 1,
+  "method": "OSM Nominatim (place/house)"
+ }
+}

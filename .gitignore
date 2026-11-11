@@ -1,0 +1,15 @@
+# Private / personal material — never published
+docs/private/
+data/raw/Ro Khanna Project.qgz
+data/extracted/
+# Esri basemap tiles: cached locally for map export only; Esri terms do not permit redistribution
+data/basemap/*.tif
+data/basemap/.tilecache/
+# Third-party Python packages installed locally (reinstall per README)
+scripts/_pylib/
+# Generated intermediates
+maps/brief_jpg/
+__pycache__/
+.DS_Store
+*.qgz~
+*.aux.xml

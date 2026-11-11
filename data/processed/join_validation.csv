@@ -1,0 +1,5 @@
+join,left_n,matched,unmatched_left,unmatched_ids
+tracts->ACS B19013/B25064/B25070,202,202,0,
+tracts->CES5.0,202,200,2,06001990000;06081990100
+tracts->CEC energy affordability,202,199,3,06001444303;06001990000;06081990100
+region tracts (CES geom)->ACS,959,959,0,

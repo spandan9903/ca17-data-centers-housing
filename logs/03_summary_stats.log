@@ -1,0 +1,87 @@
+Reference geography not in extract: CD-17 (119th Congress, 2024 ACS) 5001900US0617
+Reference geographies:
+            geography          GEO_ID                        acs_name  median_hh_income  mhi_moe  median_gross_rent  mgr_moe  renter_hh_computed  pct_burden30  pct_burden50
+0          California     0400000US06                      California           99122.0    310.0             2036.0      5.0           5673625.0          55.3          28.8
+1  Santa Clara County  0500000US06085  Santa Clara County, California          164281.0   1955.0             2857.0     19.0            284954.0          45.0          21.0
+2      Alameda County  0500000US06001      Alameda County, California          129367.0   1284.0             2357.0     16.0            260821.0          50.4          26.2
+3    San Mateo County  0500000US06081    San Mateo County, California          158855.0   2851.0             2922.0     40.0            105260.0          48.4          24.9
+
+District set pooled burden: {'n_tracts': 154, 'pop_ces2024': 754222.0, 'by_county_tracts': {'085': 136, '001': 18}, 'renter_hh_computed': np.int64(132868), 'pct_burden30': np.float64(36.8), 'pct_burden30_moe': np.float64(1.3), 'pct_burden50': np.float64(16.8), 'pct_burden50_moe': np.float64(0.9), 'n_burden30': np.int64(48949)}
+Region pooled burden: {'n_tracts': 959, 'renter_hh_computed': np.int64(651035), 'pct_burden30': np.float64(47.7), 'pct_burden30_moe': np.float64(0.6), 'pct_burden50': np.float64(23.7), 'pct_burden50_moe': np.float64(0.5), 'n_burden30': np.int64(310731)}
+
+Tract MHI: {'n': 153, 'min': 78089.0, 'p25': 153333.0, 'median': 181165.0, 'p75': 215775.0, 'max': 250000.0} top-coded: 18
+Tract MGR: {'n': 152, 'min': 1308.0, 'p25': 2721.5, 'median': 3156.0, 'p75': 3500.0, 'max': 3500.0} top-coded: 40
+Tract burden30: {'n': 152, 'min': 10.0, 'p25': 30.130350838481906, 'median': 37.021105001457045, 'p75': 47.03785576126002, 'max': 78.82352941176471}  CV>40%: 12  tracts >=50% burdened: 27  (lower 90% bound >=50%: 3 )
+
+CES indicators (district set, statewide percentiles):
+ indicator  median_tract_pctile  pop_weighted_mean_pctile  share_tracts_ge75
+gwthreatsP                 76.8                      70.3               52.6
+  trafficP                 73.2                      68.7               48.7
+      hazP                 71.4                      68.9               43.5
+     lingP                 68.4                      65.9               40.9
+ cleanupsP                 66.7                      61.2               45.5
+   dieselP                 65.7                      62.1               37.0
+      lbwP                 59.7                      57.3               24.0
+    SmATSP                 57.9                      57.7               31.8
+    drinkP                 45.0                      43.7                0.6
+       pmP                 39.3                      38.1                0.0
+     leadP                 37.5                      36.6                2.6
+    unempP                 34.1                      36.1                5.2
+  RSEIhazP                 30.0                      37.6                6.5
+      eduP                 29.7                      33.1                1.3
+      cvdP                 22.8                      23.0                0.0
+ housingBP                 21.0                      27.7                3.9
+    ozoneP                 18.1                      18.4                0.0
+      povP                 16.8                      21.7                0.6
+      iwbP                 14.6                      28.2                3.2
+   asthmaP                 11.8                      15.9                0.0
+     pestP                  0.0                       1.1                0.0
+     swisP                  0.0                      25.3               11.0
+Highest-CES district tracts:
+      GEOID ces_approx_loc  ces_CIscoreP  ces_PollutionP  ces_PopCharP  pct_burden30  pct_burden30_moe      mhi  ces_ACS2024Pop
+06085503601       San Jose          78.0            86.8          61.8          44.4              11.8  98021.0          3524.0
+06085505100       San Jose          76.2            93.7          52.6          42.5              13.7 115395.0          3993.0
+06085504318       San Jose          74.7            87.7          56.6          46.6              19.2 106535.0          7989.0
+06085503709       San Jose          72.6            54.1          78.7          50.6              12.3  78089.0          5862.0
+06085504602      Sunnyvale          70.7            86.5          52.1          60.9              22.5 121953.0          1542.0
+06085505007    Santa Clara          68.4            90.3          45.4          47.0              15.5 164115.0          4223.0
+06085505203       San Jose          64.3            82.2          46.8          57.4              12.0 139028.0          5725.0
+06085504422       Milpitas          61.3            60.5          55.4          48.9              19.5 141111.0          3440.0
+06085505202    Santa Clara          60.8            89.0          37.0          37.1               6.4 164928.0          8273.0
+06085504507       Milpitas          60.5            76.1          45.0          46.0              21.2 163724.0          6052.0
+06085503708       San Jose          60.2            38.4          69.7          68.0              15.5 103446.0          2530.0
+06085508900      Sunnyvale          60.1            73.6          45.7          41.0              12.1 156726.0          4428.0
+
+Spearman burden30 vs CES pctile (district tracts, n=152): rho=0.36 p=5.27e-06; MHI vs CES rho=-0.63
+
+Bivariate classes (district set): {'1-2': 47, '1-1': 32, '2-2': 22, '2-3': 13, '1-3': 12, '2-1': 11, '3-2': 8, '3-3': 4, '3-1': 3, 'NA': 2}
+High-high (top regional tercile on both) tracts: 4 pop 14753.0 ['San Jose', 'Sunnyvale']
+
+Facility summary: {'n_documented_dc': 20, 'n_dc_in_ca17': 10, 'n_dc_proposed': 11, 'n_dc_in_ca17_proposed': 4, 'n_leu': 2, 'n_leu_in_ca17': 1, 'mw_disclosed_in_ca17': 751.9, 'n_mw_disclosed_in_ca17': 8, 'dc_in_ces_top25': 0, 'dc_in_highhigh': 3, 'dc_within_1km_ca17': 4, 'osm_unique_region': 76, 'osm_in_ca17': 63, 'dc_within_1km_highhigh': 11}
+   inv_id                                                 facility_name             status_class  in_ca17  dist_ca17_m  ces_CIscoreP  pct_burden30 bivar  dist_highhigh_m  pop_1km_est
+0    SJ01                    150 S 1st Street data center (PD rezoning)  Proposed - under review        0        732.0     69.622495     59.345003   3-3              0.0      17900.0
+1    SJ02                                326 Charcot Avenue data center  Proposed - under review        1          0.0     31.285287     19.123506   1-2           3643.0       2500.0
+2    SJ03                           5601 Great Oaks Parkway data center  Proposed - under review        0      11851.0     38.580759     60.649087   3-2            732.0      10300.0
+3    SJ04                                  865 Embedded Way data center  Proposed - under review        0      10781.0     35.813130     22.360248   1-2            741.0       2100.0
+4    SJ05                     5977 Silver Creek Valley Road data center  Proposed - under review        0      11847.0     35.813130     22.360248   1-2            751.0       3700.0
+5    SJ06            180 Park Avenue mixed-use / data center (Option B)  Proposed - under review        0        453.0     65.869589     37.292401   1-3            327.0      14000.0
+6    SJ07        323 Terraine Street mixed-use / data center (Option B)  Proposed - under review        0        100.0     56.559283     52.448133   2-3            352.0      10300.0
+7    SJ08                                     350 W Trimble data center  Proposed - under review        1          0.0     31.285287     19.123506   1-2           3179.0       3000.0
+8    SJ09                      300 S 1st Street mixed-use / data center  Proposed - under review        0        810.0     69.622495     59.345003   3-3              0.0      18600.0
+9    SJ10          2549 Orchard Parkway data center (Microsoft SJDC 04)  Proposed - under review        1          0.0     31.285287     19.123506   1-2           3108.0       2700.0
+10   SJ11                       300 Holger Way data center (conversion)      Approved / exempted        1          0.0     31.340640     16.875522   1-2             52.0       4900.0
+11   SJ12                  Fortune Drive / Trade Zone Blvd data centers      Approved / exempted        1          0.0     43.861397     39.880952   1-2           3314.0       9300.0
+12   SJ13                             127 Great Oaks data center campus      Approved / exempted        0      14197.0     33.986494     47.107438   2-2            868.0       5400.0
+13   SJ14  Microsoft San Jose Data Center (Zanker Rd / Alviso-Milpitas)      Approved / exempted        1          0.0     70.707406     60.902256   3-3              0.0       2200.0
+16  CEC01                                            Bowers Data Center      Approved / exempted        1          0.0     60.755009     37.081610   1-3           3827.0       6700.0
+17  CEC02                                         Lafayette Data Center      Approved / exempted        1          0.0     60.755009     37.081610   1-3           2352.0       2900.0
+18  CEC03                                            Martin Data Center      Approved / exempted        1          0.0     60.755009     37.081610   1-3           1745.0       2900.0
+19  CEC04                                         NorthTown Data Center  Proposed - under review        1          0.0     31.285287     19.123506   1-2           3403.0       2800.0
+20  CEC05                               STACK SVY03A Data Center Campus      Approved / exempted        0      10108.0     73.209344     33.514986   1-3            945.0        500.0
+21  CEC06                                      AVAIO Pittsburg Data Hub      Approved / exempted        0      51252.0           NaN           NaN   NaN          34408.0          0.0
+
+CA-17 tracts hosting existing (OSM) DCs vs not:
+            n  ces_med  poll_med  popchar_med  burden_med       pop  dcs
+osm_dc_n                                                                
+False     142     31.0      44.0         23.4        38.5  684447.0    0
+True       12     43.0      84.5         23.1        35.8   69775.0   63

@@ -1,0 +1,5 @@
+GEOID,ces_approx_loc,overlap_share,pct_burden30,pct_burden30_moe,burden30_rel,ces_CIscoreP,ces_PollutionP,ces_PopCharP,mhi,ces_ACS2024Pop
+06085502001,San Jose,1.0,55.5,17.9,medium,55.2,52.7,51.5,94794.0,4956.0
+06085505203,San Jose,1.0,57.4,12.0,high,64.3,82.2,46.8,139028.0,5725.0
+06085503708,San Jose,1.0,68.0,15.5,high,60.2,38.4,69.7,103446.0,2530.0
+06085504602,Sunnyvale,1.0,60.9,22.5,medium,70.7,86.5,52.1,121953.0,1542.0

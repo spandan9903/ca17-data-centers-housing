@@ -1,0 +1,1631 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-11T01:12:05Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 5146323411,
+  "lat": 37.8698521,
+  "lon": -122.2598231,
+  "tags": {
+    "description": "Computer lab providing services to UC Berkeley community",
+    "name": "Open Computing Facility",
+    "source": "local_knowledge",
+    "telecom": "data_center",
+    "website": "https://www.ocf.berkeley.edu/",
+    "wheelchair": "yes",
+    "wikidata": "Q7095985",
+    "wikipedia": "en:Open Computing Facility"
+  }
+},
+{
+  "type": "node",
+  "id": 8238715059,
+  "lat": 37.4027449,
+  "lon": -121.8910510,
+  "tags": {
+    "addr:city": "San Jose",
+    "addr:housenumber": "2150",
+    "addr:postcode": "95131",
+    "addr:state": "CA",
+    "addr:street": "Trade Zone Boulevard",
+    "addr:unit": "107",
+    "fixme": "Somewhere on this floor",
+    "level": "0",
+    "name": "STACK Infrastructure",
+    "operator": "Stack Infrastructure, Incorporated",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "node",
+  "id": 8238715061,
+  "lat": 37.4026341,
+  "lon": -121.8910570,
+  "tags": {
+    "addr:city": "San Jose",
+    "addr:housenumber": "2150",
+    "addr:postcode": "95131",
+    "addr:state": "CA",
+    "addr:street": "Trade Zone Boulevard",
+    "addr:unit": "201",
+    "fixme": "Somewhere on this floor",
+    "level": "1",
+    "name": "STACK Infrastructure",
+    "operator": "Stack Infrastructure, Incorporated",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "node",
+  "id": 8897151054,
+  "lat": 37.3341181,
+  "lon": -121.8916460,
+  "tags": {
+    "addr:city": "San Jose",
+    "addr:housenumber": "55",
+    "addr:postcode": "95113",
+    "addr:state": "CA",
+    "addr:street": "South Market Street",
+    "addr:unit": "104",
+    "fixme": "Somewhere in this building",
+    "name": "San Jose Colocation Center",
+    "official_name": "CoreSite Real Estate 55 S Market Street, L.L.C.",
+    "operator": "CoreSite",
+    "operator:wikidata": "Q5170140",
+    "ref": "SV1",
+    "telecom": "data_center",
+    "website": "https://www.coresite.com/data-center/sv1-san-jose-ca"
+  }
+},
+{
+  "type": "node",
+  "id": 10780794741,
+  "lat": 37.7796531,
+  "lon": -122.3940005,
+  "tags": {
+    "addr:housenumber": "630",
+    "addr:state": "CA",
+    "addr:street": "3rd Street",
+    "operator": "Ntirety",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "node",
+  "id": 12437277166,
+  "lat": 37.3666621,
+  "lon": -121.9628653,
+  "tags": {
+    "addr:housenumber": "2215",
+    "addr:street": "Martin Avenue",
+    "name": "Prime Santa Clara",
+    "operator": "Prime",
+    "telecom": "data_center",
+    "website": "https://primedatacenters.com/santa-clara-data-centers/"
+  }
+},
+{
+  "type": "node",
+  "id": 12550746951,
+  "lat": 37.3228675,
+  "lon": -121.9474176,
+  "tags": {
+    "addr:city": "San Jose",
+    "addr:housenumber": "300",
+    "addr:postcode": "95128",
+    "addr:state": "CA",
+    "addr:street": "Santana Row",
+    "addr:unit": "400",
+    "name": "Forescout Technologies, Inc.",
+    "phone": "+1-408-213-3191",
+    "telecom": "data_center",
+    "website": "https://www.forescout.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14081154610,
+  "lat": 37.5529209,
+  "lon": -121.9808321,
+  "tags": {
+    "addr:unit": "116",
+    "name": "Petadata",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 35491576,
+  "center": {
+    "lat": 37.2415975,
+    "lon": -121.7833277
+  },
+  "tags": {
+    "addr:city": "San Jose",
+    "addr:housenumber": "11",
+    "addr:postcode": "95119",
+    "addr:state": "CA",
+    "addr:street": "Great Oaks Boulevard",
+    "building": "data_center",
+    "clli": "SNJSCA",
+    "ele": "71.27",
+    "height": "8.39",
+    "name": "Equinix SV1",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "SV1",
+    "telecom": "data_center",
+    "website": "https://www.equinix.co.uk/locations/united-states-colocation/silicon-valley-data-centers/sv1/"
+  }
+},
+{
+  "type": "way",
+  "id": 37877544,
+  "center": {
+    "lat": 37.3734695,
+    "lon": -121.9878002
+  },
+  "tags": {
+    "addr:city": "Sunnyvale",
+    "addr:housenumber": "1380",
+    "addr:postcode": "94086",
+    "addr:state": "CA",
+    "addr:street": "Kifer Road",
+    "building": "commercial",
+    "building:levels": "1",
+    "name": "Lumen Sunnyvale 1",
+    "operator": "Lumen Technologies",
+    "operator:wikidata": "Q5063092",
+    "smoking": "no",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 37947313,
+  "center": {
+    "lat": 37.3788292,
+    "lon": -121.9559257
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "3223",
+    "addr:postcode": "95054",
+    "addr:state": "CA",
+    "addr:street": "Kenneth Street",
+    "building": "yes",
+    "name": "OpenColo",
+    "telecom": "data_center",
+    "website": "https://www.opencolo.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 37947314,
+  "center": {
+    "lat": 37.3784704,
+    "lon": -121.9549839
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "1350",
+    "addr:state": "CA",
+    "addr:street": "Duane Avenue",
+    "building": "equinix",
+    "name": "Equinix Santa Clara SV2",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "SV2",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/silicon-valley-data-centers/sv2"
+  }
+},
+{
+  "type": "way",
+  "id": 37947315,
+  "center": {
+    "lat": 37.3780374,
+    "lon": -121.9541277
+  },
+  "tags": {
+    "addr:housenumber": "3080",
+    "addr:street": "Raymond Street",
+    "building": "data_center",
+    "name": "Santa Clara Data Center (SJC3)",
+    "operator": "Evocative",
+    "operator:wikidata": "Q136332656",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 38305431,
+  "center": {
+    "lat": 37.3724077,
+    "lon": -121.9736470
+  },
+  "tags": {
+    "addr:housenumber": "2820",
+    "addr:street": "Northwestern Parkway",
+    "building": "data_center",
+    "name": "Digital Realty Silicon Valley SJC34",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 38305568,
+  "center": {
+    "lat": 37.3714713,
+    "lon": -121.9696826
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "2401",
+    "addr:postcode": "95051",
+    "addr:state": "CA",
+    "addr:street": "Walsh Avenue",
+    "building": "data_center",
+    "name": "Csquare SFO1",
+    "operator": "Csquare",
+    "telecom": "data_center",
+    "website": "https://www.csquare.com/data-centers/silicon-valley#santaclara-sfo1"
+  }
+},
+{
+  "type": "way",
+  "id": 38305611,
+  "center": {
+    "lat": 37.3733075,
+    "lon": -121.9727778
+  },
+  "tags": {
+    "building": "data_center",
+    "operator": "Vantage",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 40608200,
+  "center": {
+    "lat": 37.3654018,
+    "lon": -121.9616726
+  },
+  "tags": {
+    "addr:housenumber": "2050",
+    "addr:street": "Martin Avenue",
+    "building": "yes",
+    "name": "Cologix Santa Clara SV1 Data Center",
+    "operator": "Cologix",
+    "ref": "SV1",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 54119665,
+  "center": {
+    "lat": 37.3975720,
+    "lon": -121.9809630
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "4650",
+    "addr:postcode": "95054",
+    "addr:state": "CA",
+    "addr:street": "Old Ironsides Drive",
+    "building": "yes",
+    "name": "Csquare SFO2",
+    "operator": "Csquare",
+    "ref": "SFO2",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 54119667,
+  "center": {
+    "lat": 37.3986381,
+    "lon": -121.9811563
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "4700",
+    "addr:postcode": "95054",
+    "addr:state": "CA",
+    "addr:street": "Old Ironsides Drive",
+    "building": "yes",
+    "name": "Csquare SFO2",
+    "operator": "Csquare",
+    "ref": "SFO2",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 54121151,
+  "center": {
+    "lat": 37.3939862,
+    "lon": -121.9783207
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "2805",
+    "addr:postcode": "95054",
+    "addr:state": "CA",
+    "addr:street": "Mission College Boulevard",
+    "building": "yes",
+    "name": "QTS Santa Clara 1",
+    "operator": "Quality Technology Services",
+    "operator:short": "QTS",
+    "operator:wikidata": "Q18392800",
+    "telecom": "data_center",
+    "website": "https://qtsdatacenters.com/data-centers/santa-clara/"
+  }
+},
+{
+  "type": "way",
+  "id": 54173383,
+  "center": {
+    "lat": 37.3751575,
+    "lon": -121.9717141
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "2901",
+    "addr:postcode": "95054",
+    "addr:state": "CA",
+    "addr:street": "Coronado Drive",
+    "building": "commercial",
+    "name": "CoreSite SV3",
+    "operator": "CoreSite",
+    "ref": "SV3",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 54173753,
+  "center": {
+    "lat": 37.3763019,
+    "lon": -121.9720837
+  },
+  "tags": {
+    "building": "yes",
+    "name": "CoreSite SV6",
+    "operator": "CoreSite",
+    "ref": "SV6",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 54173755,
+  "center": {
+    "lat": 37.3773827,
+    "lon": -121.9718400
+  },
+  "tags": {
+    "building": "yes",
+    "name": "CoreSite SV8",
+    "operator": "CoreSite",
+    "ref": "SV8",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 54383196,
+  "center": {
+    "lat": 37.3751959,
+    "lon": -121.9706889
+  },
+  "tags": {
+    "building": "commercial",
+    "name": "CoreSite SV5",
+    "operator": "CoreSite",
+    "ref": "SV5",
+    "roof:colour": "gray",
+    "roof:shape": "flat",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 54383197,
+  "center": {
+    "lat": 37.3755551,
+    "lon": -121.9696049
+  },
+  "tags": {
+    "building": "commercial",
+    "name": "CoreSite SV9",
+    "operator": "CoreSite",
+    "ref": "SV9",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 58708529,
+  "center": {
+    "lat": 37.3927307,
+    "lon": -121.9784277
+  },
+  "tags": {
+    "addr:housenumber": "2805",
+    "addr:postcode": "95054",
+    "addr:state": "CA",
+    "addr:street": "Mission College Boulevard",
+    "building": "yes",
+    "name": "QTS Santa Clara 2",
+    "operator": "Quality Technology Services",
+    "operator:short": "QTS",
+    "operator:wikidata": "Q18392800",
+    "telecom": "data_center",
+    "website": "https://qtsdatacenters.com/data-centers/santa-clara/"
+  }
+},
+{
+  "type": "way",
+  "id": 99813512,
+  "center": {
+    "lat": 37.4145109,
+    "lon": -122.0145563
+  },
+  "tags": {
+    "addr:city": "Sunnyvale",
+    "addr:housenumber": "255",
+    "addr:postcode": "94089",
+    "addr:state": "CA",
+    "addr:street": "Caspian Drive",
+    "building": "data_center",
+    "name": "Equinix SV4",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "SV4",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/silicon-valley-data-centers/sv4"
+  }
+},
+{
+  "type": "way",
+  "id": 132746406,
+  "center": {
+    "lat": 37.4458951,
+    "lon": -122.1607860
+  },
+  "tags": {
+    "addr:city": "Palo Alto",
+    "addr:housenumber": "529",
+    "addr:postcode": "94301",
+    "addr:state": "CA",
+    "addr:street": "Bryant Street",
+    "alt_name": "Palo Alto Internet Exchange",
+    "building": "data_center",
+    "name": "Equinix SV8",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "operator:wikipedia": "en:Equinix",
+    "ref": "SV8",
+    "source": "bing",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/silicon-valley-data-centers/sv8"
+  }
+},
+{
+  "type": "way",
+  "id": 161126131,
+  "center": {
+    "lat": 37.2420719,
+    "lon": -121.7817852
+  },
+  "tags": {
+    "addr:city": "San Jose",
+    "addr:housenumber": "9",
+    "addr:postcode": "95119",
+    "addr:state": "CA",
+    "addr:street": "Great Oaks Boulevard",
+    "building": "data_center",
+    "name": "Equinix SV5",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "SV5",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/silicon-valley-data-centers/sv5"
+  }
+},
+{
+  "type": "way",
+  "id": 192307107,
+  "center": {
+    "lat": 37.7889916,
+    "lon": -122.3901367
+  },
+  "tags": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "360",
+    "addr:state": "CA",
+    "addr:street": "Spear Street",
+    "building": "data_center",
+    "height": "34 m",
+    "name": "360 Spear Street Data Center",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 205823968,
+  "center": {
+    "lat": 37.3754952,
+    "lon": -121.9884063
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "2960",
+    "addr:postcode": "95051",
+    "addr:state": "CA",
+    "addr:street": "Corvin Drive",
+    "building": "data_center",
+    "name": "Equinix SV15",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "SV15",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/silicon-valley-data-centers/sv15"
+  }
+},
+{
+  "type": "way",
+  "id": 205823970,
+  "center": {
+    "lat": 37.3761243,
+    "lon": -121.9886718
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "2960",
+    "addr:postcode": "95051",
+    "addr:state": "CA",
+    "addr:street": "Corvin Drive",
+    "building": "data_center",
+    "name": "Equinix SV16",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "SV16",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/silicon-valley-data-centers/sv16"
+  }
+},
+{
+  "type": "way",
+  "id": 205823971,
+  "center": {
+    "lat": 37.3765309,
+    "lon": -121.9885825
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "2960",
+    "addr:postcode": "95051",
+    "addr:state": "CA",
+    "addr:street": "Corvin Drive",
+    "building": "data_center",
+    "name": "Equinix SV17",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "SV17",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/silicon-valley-data-centers/sv17"
+  }
+},
+{
+  "type": "way",
+  "id": 205823980,
+  "center": {
+    "lat": 37.3749843,
+    "lon": -121.9884742
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "2960",
+    "addr:postcode": "95051",
+    "addr:state": "CA",
+    "addr:street": "Corvin Drive",
+    "building": "data_center",
+    "name": "Equinix SV14",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "SV14",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/silicon-valley-data-centers/sv14"
+  }
+},
+{
+  "type": "way",
+  "id": 205846843,
+  "center": {
+    "lat": 37.3762614,
+    "lon": -121.9706851
+  },
+  "tags": {
+    "building": "commercial",
+    "name": "CoreSite SV4",
+    "operator": "CoreSite",
+    "ref": "SV4",
+    "roof:colour": "gray",
+    "roof:shape": "flat",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 209073635,
+  "center": {
+    "lat": 37.3770332,
+    "lon": -121.9520590
+  },
+  "tags": {
+    "addr:housenumber": "3045",
+    "addr:street": "Raymond Street",
+    "building": "yes",
+    "name": "Lumen Santa Clara",
+    "operator": "Lumen Technologies",
+    "operator:wikidata": "Q5063092",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 209073636,
+  "center": {
+    "lat": 37.3750172,
+    "lon": -121.9532497
+  },
+  "tags": {
+    "addr:housenumber": "1111",
+    "addr:street": "Comstock Street",
+    "building": "yes",
+    "name": "Prime Santa Clara",
+    "operator": "Prime",
+    "telecom": "data_center",
+    "website": "https://primedatacenters.com/santa-clara-data-centers/"
+  }
+},
+{
+  "type": "way",
+  "id": 209073641,
+  "center": {
+    "lat": 37.3758220,
+    "lon": -121.9533359
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "1100",
+    "addr:postcode": "95054",
+    "addr:state": "CA",
+    "addr:street": "Space Park Drive",
+    "building": "data_center",
+    "building:levels": "3",
+    "name": "Digital Realty Silicon Valley SJC10",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "SJC10",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.nl/data-centers/americas/silicon-valley/sjc10"
+  }
+},
+{
+  "type": "way",
+  "id": 209073645,
+  "center": {
+    "lat": 37.3767228,
+    "lon": -121.9531439
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Colovore",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 209073647,
+  "center": {
+    "lat": 37.3782874,
+    "lon": -121.9581107
+  },
+  "tags": {
+    "addr:housenumber": "3105",
+    "addr:street": "Alfred Street",
+    "building": "data_center",
+    "name": "Digital Realty Silicon Valley SJC30",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "SJC30",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/silicon-valley/sjc30"
+  }
+},
+{
+  "type": "way",
+  "id": 209073649,
+  "center": {
+    "lat": 37.3749966,
+    "lon": -121.9540769
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "1201",
+    "addr:postcode": "95054",
+    "addr:street": "Comstock Street",
+    "building": "data_center",
+    "name": "Digital Realty Silicon Valley SJC15",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "SJC15",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/silicon-valley/sjc15"
+  }
+},
+{
+  "type": "way",
+  "id": 209073653,
+  "center": {
+    "lat": 37.3749324,
+    "lon": -121.9559987
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "1525",
+    "addr:postcode": "95054",
+    "addr:state": "CA",
+    "addr:street": "Comstock Street",
+    "building": "data_center",
+    "name": "Digital Realty Silicon Valley SJC16",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "SJC16",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/silicon-valley/sjc16"
+  }
+},
+{
+  "type": "way",
+  "id": 209073657,
+  "center": {
+    "lat": 37.3750223,
+    "lon": -121.9581000
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "1725",
+    "addr:postcode": "95054",
+    "addr:state": "CA",
+    "addr:street": "Comstock Street",
+    "building": "data_center",
+    "name": "Digital Realty Silicon Valley SJC29",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/silicon-valley/sjc29"
+  }
+},
+{
+  "type": "way",
+  "id": 209073658,
+  "center": {
+    "lat": 37.3757986,
+    "lon": -121.9551844
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "1500",
+    "addr:postcode": "95054",
+    "addr:state": "CA",
+    "addr:street": "Space Park Drive",
+    "building": "yes",
+    "name": "Csquare SFO4",
+    "operator": "Csquare",
+    "ref": "SFO4",
+    "telecom": "data_center",
+    "website": "https://www.csquare.com/data-centers/silicon-valley#santaclara-sfo4"
+  }
+},
+{
+  "type": "way",
+  "id": 209073659,
+  "center": {
+    "lat": 37.3750292,
+    "lon": -121.9548775
+  },
+  "tags": {
+    "addr:housenumber": "1231",
+    "addr:street": "Comstock Street",
+    "building": "yes",
+    "name": "Prime SANTA CLARA DATA CENTER",
+    "operator": "Prime",
+    "telecom": "data_center",
+    "website": "https://primedatacenters.com/santa-clara-data-centers/"
+  }
+},
+{
+  "type": "way",
+  "id": 209076412,
+  "center": {
+    "lat": 37.3763668,
+    "lon": -121.9485649
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "3011",
+    "addr:postcode": "95054",
+    "addr:state": "CA",
+    "addr:street": "Lafayette Street",
+    "building": "data_center",
+    "name": "Digital Realty Silicon Valley SJC11",
+    "note": "Apparently, \"leased to a social networking company\"",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "SJC11",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/silicon-valley/sjc11"
+  }
+},
+{
+  "type": "way",
+  "id": 209077298,
+  "center": {
+    "lat": 37.3775848,
+    "lon": -121.9506821
+  },
+  "tags": {
+    "addr:housenumber": "870",
+    "addr:street": "Duane Avenue",
+    "building": "data_center",
+    "name": "Lumen",
+    "operator": "Lumen Technologies",
+    "operator:wikidata": "Q5063092",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 209087373,
+  "center": {
+    "lat": 37.3722213,
+    "lon": -121.9482625
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "2805",
+    "addr:postcode": "95050",
+    "addr:state": "CA",
+    "addr:street": "Lafayette Street",
+    "building": "data_center",
+    "name": "Silicon Valley SJC31",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "SJC31",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/silicon-valley/sjc31"
+  }
+},
+{
+  "type": "way",
+  "id": 209105766,
+  "center": {
+    "lat": 37.3797897,
+    "lon": -121.9499034
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "3205",
+    "addr:postcode": "95054",
+    "addr:state": "CA",
+    "addr:street": "Bassett Street",
+    "building": "yes",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 209117217,
+  "center": {
+    "lat": 37.3895364,
+    "lon": -121.9619398
+  },
+  "tags": {
+    "addr:housenumber": "2151",
+    "addr:street": "Mission College Boulevard",
+    "building": "commercial",
+    "name": "Evocative Santa Clara SJC11",
+    "ref": "SJC11",
+    "telecom": "data_center",
+    "website": "https://evocative.com/data-centers/santa-clara-ca-data-center-sjc11/"
+  }
+},
+{
+  "type": "way",
+  "id": 224139416,
+  "center": {
+    "lat": 37.4183810,
+    "lon": -121.9431173
+  },
+  "tags": {
+    "addr:city": "San Jose",
+    "addr:housenumber": "400",
+    "addr:postcode": "95134",
+    "addr:street": "Holger Way",
+    "building": "commercial",
+    "ele": "17.68",
+    "height": "10.01",
+    "name": "Dell 350 Holger Way",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 224174031,
+  "center": {
+    "lat": 37.3642804,
+    "lon": -121.9587878
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:state": "CA",
+    "addr:street": "Richard Avenue",
+    "building": "colocation",
+    "name": "SV Colo",
+    "operator": "SV Colo",
+    "telecom": "data_center",
+    "website": "https://www.svcolo.com/index.html"
+  }
+},
+{
+  "type": "way",
+  "id": 224998784,
+  "center": {
+    "lat": 37.3621026,
+    "lon": -121.9464586
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "2055",
+    "addr:state": "CA",
+    "addr:street": "Lafayette Street",
+    "building": "data_center",
+    "name": "Microsoft",
+    "operator": "Microsoft",
+    "operator:wikidata": "Q2283",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 271893323,
+  "center": {
+    "lat": 37.3720542,
+    "lon": -121.9860407
+  },
+  "tags": {
+    "addr:city": "Sunnyvale",
+    "addr:housenumber": "1400",
+    "addr:postcode": "94086",
+    "addr:state": "CA",
+    "addr:street": "Kifer Road",
+    "building": "yes",
+    "name": "Csquare SFO3",
+    "operator": "Csquare",
+    "ref": "SFO3",
+    "telecom": "data_center",
+    "website": "https://www.csquare.com/data-centers/silicon-valley#sunnyvale-sfo3"
+  }
+},
+{
+  "type": "way",
+  "id": 289620443,
+  "center": {
+    "lat": 37.7236272,
+    "lon": -122.3979543
+  },
+  "tags": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "200",
+    "addr:state": "CA",
+    "addr:street": "Paul Avenue",
+    "building": "data_center",
+    "clli": "SNFCCAMM",
+    "height": "16",
+    "name": "Digital Realty San Francisco SFO10",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "SFO10",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 299388896,
+  "center": {
+    "lat": 37.4056857,
+    "lon": -121.9162604
+  },
+  "tags": {
+    "addr:city": "Milpitas",
+    "addr:housenumber": "1656",
+    "addr:postcode": "95035",
+    "addr:state": "CA",
+    "addr:street": "McCarthy Boulevard",
+    "building": "yes",
+    "clli": "MLPSCASD",
+    "name": "CoreSite SV2",
+    "operator": "CoreSite Real Estate 1656 McCarthy, L.P.",
+    "ref": "SV2",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 358455179,
+  "center": {
+    "lat": 37.3616469,
+    "lon": -121.9439784
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "2220",
+    "addr:state": "CA",
+    "addr:street": "De La Cruz Boulevard",
+    "addr:unit": "1",
+    "building": "data_center",
+    "name": "Digital Realty Silicon Valley SC1",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 358946546,
+  "center": {
+    "lat": 37.6994753,
+    "lon": -121.9037995
+  },
+  "tags": {
+    "building": "yes",
+    "name": "QES Computers",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 377378595,
+  "center": {
+    "lat": 37.7990205,
+    "lon": -122.2825386
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "4",
+    "name": "Digital Realty",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 383728972,
+  "center": {
+    "lat": 37.4898848,
+    "lon": -121.9310239
+  },
+  "tags": {
+    "addr:city": "Fremont",
+    "addr:country": "US",
+    "addr:housenumber": "760",
+    "addr:postcode": "94539",
+    "addr:state": "CA",
+    "addr:street": "Mission Court",
+    "building": "industrial",
+    "building:levels": "2",
+    "name": "Hurricane Electric Fremont 1",
+    "operator": "Hurricane Electric",
+    "ref": "fmt1",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 384310259,
+  "center": {
+    "lat": 37.4753251,
+    "lon": -121.9221068
+  },
+  "tags": {
+    "addr:housenumber": "47913;47923;47963",
+    "addr:street": "Warm Springs Boulevard",
+    "building": "yes",
+    "name": "XO Fremont",
+    "operator": "XO",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 384310269,
+  "center": {
+    "lat": 37.4718340,
+    "lon": -121.9202907
+  },
+  "tags": {
+    "addr:city": "Fremont",
+    "addr:country": "US",
+    "addr:housenumber": "48233",
+    "addr:postcode": "94539",
+    "addr:state": "CA",
+    "addr:street": "Warm Springs Boulevard",
+    "building": "yes",
+    "building:levels": "2",
+    "clli": "FRMTCA",
+    "name": "Hurricane Electric Fremont 2",
+    "operator": "Hurricane Electric",
+    "ref": "fmt2",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 390287635,
+  "center": {
+    "lat": 37.3996265,
+    "lon": -122.0145584
+  },
+  "tags": {
+    "addr:city": "Sunnyvale",
+    "addr:housenumber": "444",
+    "addr:state": "CA",
+    "addr:street": "Toyama Drive",
+    "building": "data_center",
+    "name": "Equinix SV6",
+    "operator": "Equinix",
+    "ref": "SV6",
+    "telecom": "data_center",
+    "website": "https://www.equinix.co.uk/locations/united-states-colocation/silicon-valley-data-centers/sv6/"
+  }
+},
+{
+  "type": "way",
+  "id": 451413811,
+  "center": {
+    "lat": 37.3336326,
+    "lon": -121.8879639
+  },
+  "tags": {
+    "addr:city": "San Jose",
+    "addr:housenumber": "150",
+    "addr:postcode": "95113",
+    "addr:street": "South 1st Street",
+    "building": "retail",
+    "building:levels": "2",
+    "building:levels:underground": "2",
+    "disused:shop": "mall",
+    "layer": "1",
+    "old_name": "Pavilion",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 460076753,
+  "center": {
+    "lat": 37.3882740,
+    "lon": -121.8884463
+  },
+  "tags": {
+    "addr:city": "San Jose",
+    "addr:housenumber": "1735",
+    "addr:postcode": "95131",
+    "addr:state": "CA",
+    "addr:street": "Lundy Avenue",
+    "building": "data_center",
+    "ele": "27.52",
+    "height": "9.14",
+    "name": "Equinix San Jose SV3",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "operator:wikipedia": "en:Equinix",
+    "ref": "SV3",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/silicon-valley-data-centers/sv3"
+  }
+},
+{
+  "type": "way",
+  "id": 460085343,
+  "center": {
+    "lat": 37.7887310,
+    "lon": -122.3904690
+  },
+  "tags": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "365",
+    "addr:state": "CA",
+    "addr:street": "Main Street",
+    "building": "data_center",
+    "ele": "6",
+    "gnis:feature_id": "1655412",
+    "height": "34 m",
+    "name": "365 Main Street Data Center",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 460159925,
+  "center": {
+    "lat": 37.4039641,
+    "lon": -121.8892308
+  },
+  "tags": {
+    "addr:city": "San Jose",
+    "addr:housenumber": "2334",
+    "addr:postcode": "95131",
+    "addr:state": "CA",
+    "addr:street": "Lundy Place",
+    "building": "data_center",
+    "ele": "28.56",
+    "height": "9.10",
+    "operator": "NTT Limited",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 460159928,
+  "center": {
+    "lat": 37.3704500,
+    "lon": -121.9698252
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "2403",
+    "addr:postcode": "95051",
+    "addr:state": "CA",
+    "addr:street": "Walsh Avenue",
+    "building": "data_center",
+    "name": "Csquare SFO1",
+    "operator": "Csquare",
+    "telecom": "data_center",
+    "website": "https://www.csquare.com/data-centers/silicon-valley#santaclara-sfo1"
+  }
+},
+{
+  "type": "way",
+  "id": 460159955,
+  "center": {
+    "lat": 37.3717787,
+    "lon": -121.9725052
+  },
+  "tags": {
+    "building": "data_center",
+    "operator": "Vantage",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 553223628,
+  "center": {
+    "lat": 37.4025598,
+    "lon": -121.8933910
+  },
+  "tags": {
+    "building": "yes",
+    "ele": "25.56",
+    "height": "8.46",
+    "name": "Stack Infrastructure",
+    "operator": "Stack Infrastructure",
+    "operator:wikidata": "Q115477173",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 553223629,
+  "center": {
+    "lat": 37.4022094,
+    "lon": -121.8923868
+  },
+  "tags": {
+    "building": "yes",
+    "ele": "21.11",
+    "height": "5.58",
+    "name": "Stack Infrastructure",
+    "operator": "Stack Infrastructure",
+    "operator:wikidata": "Q115477173",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 600806974,
+  "center": {
+    "lat": 37.2412288,
+    "lon": -121.7847536
+  },
+  "tags": {
+    "addr:city": "San Jose",
+    "addr:housenumber": "7",
+    "addr:postcode": "95119",
+    "addr:state": "CA",
+    "addr:street": "Great Oaks Boulevard",
+    "building": "data_center",
+    "name": "Equinix SV10",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "SV10",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/silicon-valley-data-centers/sv10"
+  }
+},
+{
+  "type": "way",
+  "id": 888253616,
+  "center": {
+    "lat": 37.3690532,
+    "lon": -121.9553378
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "1160",
+    "addr:postcode": "95050",
+    "addr:state": "CA",
+    "addr:street": "Walsh Avenue",
+    "building": "yes",
+    "name": "NTT Silicon Valley SV1 Data Center",
+    "operator": "NTT",
+    "operator:wikidata": "Q1054787",
+    "ref": "SV1",
+    "telecom": "data_center",
+    "website": "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/americas/silicon-valley-sv1-data-center"
+  }
+},
+{
+  "type": "way",
+  "id": 978632013,
+  "center": {
+    "lat": 37.4334128,
+    "lon": -122.1807076
+  },
+  "tags": {
+    "addr:city": "Stanford",
+    "addr:housenumber": "319",
+    "addr:street": "Oak Road",
+    "building": "data_center",
+    "name": "Northwest Data Center and Communications Hub",
+    "short_name": "NDCCH",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1065780801,
+  "center": {
+    "lat": 37.3899287,
+    "lon": -121.9659908
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Amazon",
+    "operator": "Amazon Web Services",
+    "operator:short": "AWS",
+    "operator:wikidata": "Q456157",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1075445245,
+  "center": {
+    "lat": 37.3611541,
+    "lon": -121.9423402
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "2220",
+    "addr:state": "CA",
+    "addr:street": "De La Cruz Boulevard",
+    "addr:unit": "2",
+    "building": "yes",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1160688107,
+  "center": {
+    "lat": 37.3760788,
+    "lon": -121.9730567
+  },
+  "tags": {
+    "building": "yes",
+    "name": "CoreSite SV7",
+    "operator": "CoreSite",
+    "ref": "SV7",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1227604493,
+  "center": {
+    "lat": 37.2426150,
+    "lon": -121.7840216
+  },
+  "tags": {
+    "addr:city": "San Jose",
+    "addr:housenumber": "5",
+    "addr:postcode": "95119",
+    "addr:state": "CA",
+    "addr:street": "Great Oaks Boulevard",
+    "building": "data_center",
+    "name": "Equinix SV11",
+    "operator": "Equinix",
+    "operator:wikidata": "Q851641",
+    "ref": "SV11",
+    "telecom": "data_center",
+    "website": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/silicon-valley-data-centers/sv11"
+  }
+},
+{
+  "type": "way",
+  "id": 1313995085,
+  "center": {
+    "lat": 37.3706431,
+    "lon": -121.9744825
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "2590",
+    "addr:postcode": "95051",
+    "addr:state": "CA",
+    "addr:street": "Walsh Avenue",
+    "building": "yes",
+    "telecom": "data_center"
+  }
+},
+{
+  "type": "way",
+  "id": 1314010354,
+  "center": {
+    "lat": 37.3640012,
+    "lon": -121.9468900
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "737",
+    "addr:postcode": "95051",
+    "addr:state": "CA",
+    "addr:street": "Mathew Street",
+    "building": "yes",
+    "name": "Vantage Santa Clara CA2",
+    "operator": "Vantage Data Centers",
+    "operator:wikidata": "Q133440987",
+    "telecom": "data_center",
+    "website": "https://vantage-dc.com/data-center-locations/north-america/santa-clara-ii-california/"
+  }
+},
+{
+  "type": "way",
+  "id": 1314012931,
+  "center": {
+    "lat": 37.3709193,
+    "lon": -121.9472166
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "641",
+    "addr:postcode": "95050",
+    "addr:state": "CA",
+    "addr:street": "Walsh Avenue",
+    "building": "yes",
+    "name": "Digital Realty Silicon Valley SJC37",
+    "operator": "Digital Realty",
+    "operator:wikidata": "Q5275969",
+    "ref": "SJC37",
+    "telecom": "data_center",
+    "website": "https://www.digitalrealty.com/data-centers/americas/silicon-valley/sjc37"
+  }
+},
+{
+  "type": "way",
+  "id": 1344376231,
+  "center": {
+    "lat": 37.3757651,
+    "lon": -121.9562701
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "1550",
+    "addr:postcode": "95054",
+    "addr:state": "CA",
+    "addr:street": "Space Park Drive",
+    "building": "yes",
+    "name": "Csquare SFO4",
+    "operator": "Csquare",
+    "ref": "SFO4",
+    "telecom": "data_center",
+    "website": "https://www.csquare.com/data-centers/silicon-valley#santaclara-sfo4"
+  }
+},
+{
+  "type": "way",
+  "id": 1351049826,
+  "center": {
+    "lat": 37.4073026,
+    "lon": -121.9659803
+  },
+  "tags": {
+    "addr:city": "Santa Clara",
+    "addr:housenumber": "5101",
+    "addr:postcode": "95054",
+    "addr:state": "CA",
+    "addr:street": "Lafayette Street",
+    "building": "yes",
+    "name": "DataBank Santa Clara SFO1",
+    "operator": "DataBank",
+    "operator:wikidata": "Q117314439",
+    "ref": "SFO1",
+    "telecom": "data_center",
+    "website": "https://www.databank.com/data-centers/silicon-valley/santa-clara/"
+  }
+},
+{
+  "type": "way",
+  "id": 1460847458,
+  "center": {
+    "lat": 37.3837192,
+    "lon": -121.9654044
+  },
+  "tags": {
+    "building": "yes",
+    "name": "EdgeCore Silicon Valley",
+    "telecom": "data_center",
+    "website": "https://edgecore.com/locations/silicon-valley/"
+  }
+},
+{
+  "type": "way",
+  "id": 1460855151,
+  "center": {
+    "lat": 37.3619343,
+    "lon": -121.9537306
+  },
+  "tags": {
+    "building": "yes",
+    "name": "STACK SVY02",
+    "operator": "Stack Infrastructure",
+    "operator:wikidata": "Q115477173",
+    "ref": "SVY02",
+    "telecom": "data_center",
+    "website": "https://www.stackinfra.com/locations/americas/silicon-valley/svy02/"
+  }
+}
+
+  ]
+}

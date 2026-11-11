@@ -1,0 +1,11 @@
+./scripts/05_build_qgis_project.py:69: RuntimeWarning: layer 'datacenters_osm_existing' is not registered in gpkg_geometry_columns
+  lyr = QgsVectorLayer(f"{path}|layername={layer}", name, "ogr")
+./scripts/05_build_qgis_project.py:69: RuntimeWarning: layer 'facilities_documented_display' is not registered in gpkg_geometry_columns
+  lyr = QgsVectorLayer(f"{path}|layername={layer}", name, "ogr")
+./scripts/05_build_qgis_project.py:69: RuntimeWarning: layer 'city_labels' is not registered in gpkg_geometry_columns
+  lyr = QgsVectorLayer(f"{path}|layername={layer}", name, "ogr")
+qt.qpa.fonts: Populating font family aliases took 54 ms. Replace uses of missing font family "Adobe Heiti Std R" with one that exists to avoid this cost. 
+Saved ./qgis/CA17_Tech_Housing.qgz
+Map1_Housing_Affordability pdf: 0 png: 0
+Map2_DataCenters_Environment pdf: 0 png: 0
+Map3_Community_Pressure_Screening pdf: 0 png: 0

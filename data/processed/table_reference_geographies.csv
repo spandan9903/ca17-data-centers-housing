@@ -1,0 +1,5 @@
+geography,GEO_ID,acs_name,median_hh_income,mhi_moe,median_gross_rent,mgr_moe,renter_hh_computed,pct_burden30,pct_burden50
+California,0400000US06,California,99122.0,310.0,2036.0,5.0,5673625.0,55.314177443874065,28.75401529004825
+Santa Clara County,0500000US06085,"Santa Clara County, California",164281.0,1955.0,2857.0,19.0,284954.0,45.03393530183819,21.00339002084547
+Alameda County,0500000US06001,"Alameda County, California",129367.0,1284.0,2357.0,16.0,260821.0,50.40199983897002,26.217597509403
+San Mateo County,0500000US06081,"San Mateo County, California",158855.0,2851.0,2922.0,40.0,105260.0,48.400152004560134,24.94679840395212

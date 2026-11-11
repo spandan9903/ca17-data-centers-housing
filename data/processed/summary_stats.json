@@ -1,0 +1,177 @@
+{
+ "district_set": {
+  "n_tracts": 154,
+  "pop_ces2024": 754222.0,
+  "by_county_tracts": {
+   "085": 136,
+   "001": 18
+  },
+  "renter_hh_computed": 132868.0,
+  "pct_burden30": 36.84032272631484,
+  "pct_burden30_moe": 1.2782881541636173,
+  "pct_burden50": 16.779811542282566,
+  "pct_burden50_moe": 0.8794815119038198,
+  "n_burden30": 48949.0
+ },
+ "region_3county": {
+  "n_tracts": 959,
+  "renter_hh_computed": 651035.0,
+  "pct_burden30": 47.72877034260831,
+  "pct_burden30_moe": 0.5984199229672568,
+  "pct_burden50": 23.72990699424762,
+  "pct_burden50_moe": 0.45058498903448696,
+  "n_burden30": 310731.0
+ },
+ "overlap_classes": {
+  "1_within (>=90%)": 141,
+  "2_majority (50-90%)": 13,
+  "3_minority (5-50%)": 15,
+  "4_sliver (<5%)": 33
+ },
+ "tract_mhi": {
+  "n": 153,
+  "min": 78089.0,
+  "p25": 153333.0,
+  "median": 181165.0,
+  "p75": 215775.0,
+  "max": 250000.0
+ },
+ "tract_mgr": {
+  "n": 152,
+  "min": 1308.0,
+  "p25": 2721.5,
+  "median": 3156.0,
+  "p75": 3500.0,
+  "max": 3500.0
+ },
+ "tract_burden30": {
+  "n": 152,
+  "min": 10.0,
+  "p25": 30.130350838481906,
+  "median": 37.021105001457045,
+  "p75": 47.03785576126002,
+  "max": 78.82352941176471
+ },
+ "mhi_topcoded_n": 18,
+ "mgr_topcoded_n": 40,
+ "burden30_cv_gt40_n": 12,
+ "burden30_tracts_ge50pct": 27,
+ "burden30_tracts_ge50pct_lowerbound": 3,
+ "ces": {
+  "tract_CIscoreP": {
+   "n": 153,
+   "min": 2.911546551533267,
+   "p25": 17.59105502048046,
+   "median": 31.340639876010183,
+   "p75": 42.44437064098307,
+   "max": 78.01394885420126
+  },
+  "n_top25": 2,
+  "pop_top25": 7517.0,
+  "n_ge50": 26,
+  "region_n_top25": 56
+ },
+ "ces_indicators_top": [
+  {
+   "indicator": "gwthreatsP",
+   "median_tract_pctile": 76.8,
+   "pop_weighted_mean_pctile": 70.3,
+   "share_tracts_ge75": 52.6
+  },
+  {
+   "indicator": "trafficP",
+   "median_tract_pctile": 73.2,
+   "pop_weighted_mean_pctile": 68.7,
+   "share_tracts_ge75": 48.7
+  },
+  {
+   "indicator": "hazP",
+   "median_tract_pctile": 71.4,
+   "pop_weighted_mean_pctile": 68.9,
+   "share_tracts_ge75": 43.5
+  },
+  {
+   "indicator": "lingP",
+   "median_tract_pctile": 68.4,
+   "pop_weighted_mean_pctile": 65.9,
+   "share_tracts_ge75": 40.9
+  },
+  {
+   "indicator": "cleanupsP",
+   "median_tract_pctile": 66.7,
+   "pop_weighted_mean_pctile": 61.2,
+   "share_tracts_ge75": 45.5
+  },
+  {
+   "indicator": "dieselP",
+   "median_tract_pctile": 65.7,
+   "pop_weighted_mean_pctile": 62.1,
+   "share_tracts_ge75": 37.0
+  }
+ ],
+ "spearman_burden_ces": {
+  "rho": 0.35988009065829146,
+  "p": 5.268664399950753e-06,
+  "n": 152
+ },
+ "spearman_mhi_ces": {
+  "rho": -0.629483314809147,
+  "p": 2.9058960683913355e-18
+ },
+ "bivar_counts_district": {
+  "1-2": 47,
+  "1-1": 32,
+  "2-2": 22,
+  "2-3": 13,
+  "1-3": 12,
+  "2-1": 11,
+  "3-2": 8,
+  "3-3": 4,
+  "3-1": 3,
+  "NA": 2
+ },
+ "screen_overlap_n": 4,
+ "screen_overlap_pop": 14753.0,
+ "screen_overlap_names": [
+  "San Jose",
+  "Sunnyvale"
+ ],
+ "fac": {
+  "n_documented_dc": 20,
+  "n_dc_in_ca17": 10,
+  "n_dc_proposed": 11,
+  "n_dc_in_ca17_proposed": 4,
+  "n_leu": 2,
+  "n_leu_in_ca17": 1,
+  "mw_disclosed_in_ca17": 751.9,
+  "n_mw_disclosed_in_ca17": 8,
+  "dc_in_ces_top25": 0,
+  "dc_in_highhigh": 3,
+  "dc_within_1km_ca17": 4,
+  "osm_unique_region": 76,
+  "osm_in_ca17": 63,
+  "dc_within_1km_highhigh": 11
+ },
+ "osm_host_vs_not_district": [
+  {
+   "osm_dc_n": false,
+   "n": 142,
+   "ces_med": 31.0,
+   "poll_med": 44.0,
+   "popchar_med": 23.4,
+   "burden_med": 38.5,
+   "pop": 684447.0,
+   "dcs": 0
+  },
+  {
+   "osm_dc_n": true,
+   "n": 12,
+   "ces_med": 43.0,
+   "poll_med": 84.5,
+   "popchar_med": 23.1,
+   "burden_med": 35.8,
+   "pop": 69775.0,
+   "dcs": 63
+  }
+ ]
+}
