@@ -25,6 +25,13 @@ FAC = pd.read_csv(P / "facilities_documented.csv")
 OUT = ROOT / "docs/CA17_Policy_Brief.pdf"
 OUT.parent.mkdir(exist_ok=True)
 
+
+def ordn(x):
+    """Round to an integer and add its English ordinal suffix (31st, 72nd, 73rd, 77th, 11th)."""
+    n = int(round(float(x)))
+    suf = "th" if 10 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+    return f"{n}{suf}"
+
 F = "/System/Library/Fonts/Supplemental/"
 pdfmetrics.registerFont(TTFont("Ar", F + "Arial.ttf"))
 pdfmetrics.registerFont(TTFont("ArB", F + "Arial Bold.ttf"))
@@ -103,8 +110,8 @@ bul = [
     f"Santa Clara County ({REF.loc['Santa Clara County','pct_burden30']:.1f}%), Alameda County ({REF.loc['Alameda County','pct_burden30']:.1f}%) "
     f"and California ({REF.loc['California','pct_burden30']:.1f}%). Burden is highest in the district’s Newark and San José tracts.",
     f"<b>Environmental burden comes from pollution sources, not population vulnerability.</b> District tracts sit at the "
-    f"{top_ind['gwthreatsP']:.0f}th statewide percentile for groundwater threats, {top_ind['trafficP']:.0f}th for traffic and "
-    f"{top_ind['hazP']:.0f}th for hazardous waste (tract medians), but low on CalEnviroScreen health and socioeconomic indicators. "
+    f"{ordn(top_ind['gwthreatsP'])} statewide percentile for groundwater threats, {ordn(top_ind['trafficP'])} for traffic and "
+    f"{ordn(top_ind['hazP'])} for hazardous waste (tract medians), but low on CalEnviroScreen health and socioeconomic indicators. "
     f"Only {c['n_top25']} district tracts (≈{c['pop_top25']/1000:,.1f}k residents) rank in the state’s most-burdened quartile overall.",
     f"<b>CA-17 contains the core of Silicon Valley’s data-center cluster.</b> {f['osm_in_ca17']} of the {f['osm_unique_region']} existing "
     f"data centers mapped in OpenStreetMap across Alameda, Santa Clara and San Mateo counties lie inside CA-17. So do {f['n_dc_in_ca17']} of "
@@ -150,11 +157,10 @@ E += [Spacer(1, 3), t,
         f"$250,000 and {S['mgr_topcoded_n']} at $3,500, so true district medians are higher. Burden shares are pooled tract counts; {PM} = 90% margin of "
         "error (Census Bureau approximation). Denominator excludes renter households for whom burden is “not computed” (B25070_011).", "small")]
 
-E += [p("Limitations", "h2"), p("The facility inventory is partial: it covers City of San José applications and CEC dockets only, because the Air District layer returned “Token Required” and "
+E += [p("Limitations", "h2"), p("The facility inventory is partial: it covers City of San José applications and CEC dockets only, because the Air District’s data-center layer is not publicly accessible and "
         "Santa Clara, Milpitas and Sunnyvale publish no equivalent list. OpenStreetMap data are crowd-sourced and unverified. ACS tract estimates have wide margins "
         "of error and top-coded medians, and the 5-year data describe 2020–2024 conditions. The tract-to-district assignment uses area shares, not population. "
-        "The supplied Alameda and Santa Clara housing workbooks are byte-identical copies of a 17-record City of Alameda sites inventory (outside CA-17), so they were "
-        "not used. The CEC energy-affordability file is labelled draft (“Data is NOT final”) and used for context only. No causal claims are made.", "small")]
+        "The CEC energy-affordability file is labelled draft (“Data is NOT final”) and used for context only. No causal claims are made.", "small")]
 
 # ------------------------------------------------------------------ page 2: Map 1 + housing/environment findings
 W = doc.width
@@ -185,10 +191,10 @@ E += [PageBreak(), img("Map1_Housing_Affordability.png"),
         "(45%) and San José (39%) portions and lowest in Cupertino and Fremont (33–34%). The large central tract shaded dark in panel C (Alviso/baylands, "
         "tract 5046.02) covers 64 km² but houses only ≈1,500 people; its visual weight overstates its population."),
       p("Finding 2 — Environmental vulnerability", "h2"),
-      p(f"CalEnviroScreen ranks district tracts low to moderate overall (median {c['tract_CIscoreP']['median']:.0f}th statewide percentile; "
+      p(f"CalEnviroScreen ranks district tracts low to moderate overall (median {ordn(c['tract_CIscoreP']['median'])} statewide percentile; "
         f"{c['n_ge50']} of {c['tract_CIscoreP']['n']} at or above the 50th). Pollution-burden indicators run high: tract medians are at the "
-        f"{top_ind['gwthreatsP']:.0f}th percentile for groundwater threats, {top_ind['trafficP']:.0f}th for traffic, {top_ind['hazP']:.0f}th for hazardous-waste "
-        f"facilities, {top_ind['cleanupsP']:.0f}th for cleanup sites and {top_ind['dieselP']:.0f}th for diesel particulate matter. Asthma, cardiovascular and poverty "
+        f"{ordn(top_ind['gwthreatsP'])} percentile for groundwater threats, {ordn(top_ind['trafficP'])} for traffic, {ordn(top_ind['hazP'])} for hazardous-waste "
+        f"facilities, {ordn(top_ind['cleanupsP'])} for cleanup sites and {ordn(top_ind['dieselP'])} for diesel particulate matter. Asthma, cardiovascular and poverty "
         "indicators are low. Across district tracts, rent burden and CalEnviroScreen score are moderately correlated "
         f"(Spearman ρ = {S['spearman_burden_ces']['rho']:.2f}). CalEnviroScreen measures cumulative exposure to listed pollution sources and population sensitivity; "
         "it does not measure data-center emissions, noise, heat, water use or electricity demand.".replace("ρ", '<font name="ArU">ρ</font>'))]
